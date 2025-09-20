@@ -1,11 +1,12 @@
 import './App.css';
-import { Recipe } from './components/recipe';
-const data = require('../recipes.json')
+import { Recipe } from './components/Recipe';
+
+const data = require('./recipies.json')
 
 function App() {
   return (
     <div className="App">
-        <Recipe data={dara}/>
+        <Recipe data={data}/>
     </div>
   );
 }
